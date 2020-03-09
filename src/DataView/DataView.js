@@ -10,11 +10,29 @@ function DataSource() {
 export default class DataVew extends React.Component {
 
 
+
+    constructor(props) {
+        super(props);
+        this.state = {hi: this.getDate()};
+    }
+
+
+
+    getDate()
+    {
+        var data = 1
+
+        return data
+
+    }
+
+
     render() {
         //GetData
-        var cure = 100;
-        var death = 200;
-        var infect = 100;
+
+
+
+
 
 
         return <div className="site-card-wrapper">
@@ -23,7 +41,7 @@ export default class DataVew extends React.Component {
                     <Card bordered={true}>
                         <Statistic
                             title="确诊人数"
-                            value={1000}
+                            value={this.state.hi}
                             precision={0}
                             valueStyle={{color: "blue"}}
                             prefix={<ArrowUpOutlined/>}

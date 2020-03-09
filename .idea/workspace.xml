@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38e876ac-b4fc-428d-8b67-1cb8a7674bd8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataView/DataView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataView/DataView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EachState/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/EachState/State.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions/Functions.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Functions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions/Functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583725422901</updated>
       <workItem from="1583725424116" duration="9143000" />
-      <workItem from="1583751305829" duration="5956000" />
+      <workItem from="1583751305829" duration="8716000" />
     </task>
     <servers />
   </component>
@@ -119,7 +109,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/DataView/DataView.js</url>
-          <line>36</line>
+          <line>54</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
