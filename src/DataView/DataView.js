@@ -1,15 +1,13 @@
 import React from 'react';
 import {Table} from 'antd';
-import {Statistic,Card, Col, Row} from 'antd';
-import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
-function DataSource()
-{
+import {Statistic, Card, Col, Row} from 'antd';
+import {ArrowUpOutlined, ArrowDownOutlined} from '@ant-design/icons';
+
+function DataSource() {
 
 }
 
 export default class DataVew extends React.Component {
-
-
 
 
     render() {
@@ -19,17 +17,16 @@ export default class DataVew extends React.Component {
         var infect = 100;
 
 
-
         return <div className="site-card-wrapper">
-            <Row >
+            <Row>
                 <Col span={8}>
-                    <Card  bordered={true}>
+                    <Card bordered={true}>
                         <Statistic
                             title="确诊人数"
                             value={1000}
                             precision={0}
-                            valueStyle={{ color: "blue" }}
-                            prefix={<ArrowUpOutlined />}
+                            valueStyle={{color: "blue"}}
+                            prefix={<ArrowUpOutlined/>}
                             suffix="+120"
 
                         />
@@ -37,26 +34,26 @@ export default class DataVew extends React.Component {
                     </Card>
                 </Col>
                 <Col span={8}>
-                    <Card  bordered={true}>
+                    <Card bordered={true}>
                         <Statistic
                             title="治愈人数"
                             value={1000}
                             precision={0}
-                            valueStyle={{ color: "green" }}
-                            prefix={<ArrowUpOutlined />}
+                            valueStyle={{color: "green"}}
+                            prefix={<ArrowUpOutlined/>}
                             suffix="+100"
 
                         />
                     </Card>
                 </Col>
                 <Col span={8}>
-                    <Card bordered={true} >
+                    <Card bordered={true}>
                         <Statistic
                             title="死亡人数"
                             value={1000}
                             precision={0}
-                            valueStyle={{ color: "red" }}
-                            prefix={<ArrowUpOutlined />}
+                            valueStyle={{color: "red"}}
+                            prefix={<ArrowUpOutlined/>}
                             suffix="+223"
 
                         />

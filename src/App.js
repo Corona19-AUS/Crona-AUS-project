@@ -11,7 +11,9 @@ import Functions from "./Functions/Functions";
 function App() {
   return (
     <div className="main">
-      <div className="title"><h1 className="mytitle">澳大利亚新冠病毒信息汇总</h1></div>
+      <div className="title"><h1 className="mytitle">
+        澳大利亚新冠疫情信息汇总
+      </h1></div>
         <div className="Tabdiv">
         <DataView/>
         <Functions/>

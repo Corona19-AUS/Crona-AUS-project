@@ -40,26 +40,39 @@ export default class States extends React.Component {
                 cure: 1231,
                 death: 123,
             },
+            {
+                state: 'Western Australia',
+                diagnose: 1000,
+                cure: 1231,
+                death: 123,
+            },
+            {
+                state: 'Western Australia',
+                diagnose: 1000,
+                cure: 1231,
+                death: 123,
+            },
         ];
 
         const columns = [
             {
-                title: 'State',
+                title: '州',
                 dataIndex: 'state',
                 key: 'state',
             },
             {
-                title: 'Diagnose',
+                title: '确诊',
                 dataIndex: 'diagnose',
                 key: 'diagnose',
+
             },
             {
-                title: 'Cure',
+                title: '治愈',
                 dataIndex: 'cure',
                 key: 'cure',
             },
             {
-                title: 'Death',
+                title: '死亡',
                 dataIndex: 'death',
                 key: 'death',
             },
@@ -68,7 +81,7 @@ export default class States extends React.Component {
 
 
         return <div className="StateTable">
-            <Table size="small" dataSource={dataSource} columns={columns} />;
+            <Table size="small" dataSource={dataSource} columns={columns} />
 
         </div>;
     };
