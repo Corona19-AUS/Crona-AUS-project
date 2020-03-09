@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import "./DataView/DataView.css";
 import './App.css';
+import DataView from "./DataView/DataView";
+import {Col, Row} from "antd";
+import "antd/dist/antd.css";
+import State from "./EachState/State";
+import Functions from "./Functions/Functions";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <div className="title"><h2>澳大利亚新冠病毒信息汇总</h2></div>
+    <DataView/>
+        <Functions/>
     </div>
   );
 }
