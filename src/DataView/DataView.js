@@ -27,7 +27,7 @@ export default class DataVew extends React.Component {
                         <Statistic
                             title="确诊人数"
                             value={1000}
-                            precision={2}
+                            precision={0}
                             valueStyle={{ color: "blue" }}
                             prefix={<ArrowUpOutlined />}
                             suffix="+120"
@@ -39,9 +39,9 @@ export default class DataVew extends React.Component {
                 <Col span={8}>
                     <Card  bordered={true}>
                         <Statistic
-                            title="治愈"
+                            title="治愈人数"
                             value={1000}
-                            precision={2}
+                            precision={0}
                             valueStyle={{ color: "green" }}
                             prefix={<ArrowUpOutlined />}
                             suffix="+100"
@@ -54,7 +54,7 @@ export default class DataVew extends React.Component {
                         <Statistic
                             title="死亡人数"
                             value={1000}
-                            precision={2}
+                            precision={0}
                             valueStyle={{ color: "red" }}
                             prefix={<ArrowUpOutlined />}
                             suffix="+223"

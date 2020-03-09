@@ -68,7 +68,7 @@ export default class States extends React.Component {
 
 
         return <div className="StateTable">
-            <Table dataSource={dataSource} columns={columns} />;
+            <Table size="small" dataSource={dataSource} columns={columns} />;
 
         </div>;
     };

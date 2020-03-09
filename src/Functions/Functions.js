@@ -19,18 +19,21 @@ export default class States extends React.Component {
 
 
         return <div className="StateShow">
-            <Tabs defaultActiveKey="1" onChange={callback}>
+            <Tabs  size= "small" defaultActiveKey="1" onChange={callback}>
 
-                <TabPane tab="当前各州数据" key="1">
+                <TabPane   tab="当前各州数据" key="1">
                     <State/>
                 </TabPane>
-                <TabPane tab="各州变化趋势" key="2">
+                <TabPane  tab="各州变化趋势" key="2">
                     <Trending/>
                 </TabPane>
-                <TabPane tab="官方新闻搜集" key="3">
+                <TabPane   tab="官方新闻搜集" key="3">
                     <OfficialNews/>
                 </TabPane>
-                <TabPane tab="小道消息搜集" key="4">
+                <TabPane  tab="小道消息搜集" key="4">
+                    Content of Tab Pane 3
+                </TabPane>
+                <TabPane  tab="健康咨询" key="5">
                     Content of Tab Pane 3
                 </TabPane>
             </Tabs>

@@ -41,7 +41,7 @@ export default class  Trending extends React.Component {
 
 
         return (
-            <div>
+            <div className="trending">
                 <ReactHighcharts config={config} />
             </div>
         );

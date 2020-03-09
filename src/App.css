@@ -25,8 +25,13 @@
 /*}*/
 .main
 {
-    width: 60%;
+    height: 80%;
+    width: 80%;
+    top:20%;
+
     margin: auto;
+
+
 
 }
 /*.App-link {*/
@@ -50,3 +55,12 @@
 }
 
 
+.mytitle
+{
+    color: black;
+}
+
+.Tabdiv
+{
+    height: 50%;
+}
