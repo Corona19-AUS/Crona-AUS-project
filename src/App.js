@@ -14,7 +14,7 @@ function App() {
       <div className="title"><h1 className="mytitle">
         澳大利亚新冠疫情信息汇总
       </h1></div>
-        <div className="Tabdiv">
+        <div >
         <DataView/>
         <Functions/>
         </div>

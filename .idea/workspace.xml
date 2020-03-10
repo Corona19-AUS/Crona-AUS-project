@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38e876ac-b4fc-428d-8b67-1cb8a7674bd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/Data/DataView-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/my_data_process.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataView/DataView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataView/DataView.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataView/DataView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataView/DataView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -42,10 +54,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\Administrator\WebstormProjects\auscorna\src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Administrator\WebstormProjects\auscorna\public" />
       <recent name="D:\Users\Administrator\WebstormProjects\auscorna\src" />
     </key>
   </component>
@@ -76,6 +89,8 @@
       <updated>1583725422901</updated>
       <workItem from="1583725424116" duration="9143000" />
       <workItem from="1583751305829" duration="8716000" />
+      <workItem from="1583798061504" duration="7266000" />
+      <workItem from="1583806054687" duration="4000" />
     </task>
     <servers />
   </component>
@@ -83,22 +98,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1882" height="279" key="GridCell.Tab.0.bottom" timestamp="1583752508130">
+    <state x="552" y="178" key="#Inspections" timestamp="1583798725029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583752508130" />
-    <state width="1882" height="279" key="GridCell.Tab.0.center" timestamp="1583752508129">
+    <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1583798725029" />
+    <state width="1882" height="279" key="GridCell.Tab.0.bottom" timestamp="1583813138527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583752508129" />
-    <state width="1882" height="279" key="GridCell.Tab.0.left" timestamp="1583752508129">
+    <state width="1882" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583813138527" />
+    <state width="1882" height="279" key="GridCell.Tab.0.center" timestamp="1583813138527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583752508129" />
-    <state width="1882" height="279" key="GridCell.Tab.0.right" timestamp="1583752508130">
+    <state width="1882" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583813138527" />
+    <state width="1882" height="279" key="GridCell.Tab.0.left" timestamp="1583813138527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583752508130" />
+    <state width="1882" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583813138527" />
+    <state width="1882" height="279" key="GridCell.Tab.0.right" timestamp="1583813138527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1882" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583813138527" />
     <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1583729085067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -109,7 +128,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/DataView/DataView.js</url>
-          <line>54</line>
+          <line>101</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -1,0 +1,13 @@
+[
+{
+ "Time":"03-09-2020",
+ "Confirmed":"91",
+ "Confirmed_new":"+10",
+ "Recovered":"22",
+ "Recovered_new":"+10",
+ "Deaths":"3",
+ "Deaths_new": "+10",
+ "Existing":"66",
+ "Existing_new": "+10"
+}
+]
