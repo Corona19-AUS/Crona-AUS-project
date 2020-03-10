@@ -4,11 +4,10 @@ import { Tabs } from 'antd';
 import State from "../EachState/State";
 import Trending from "../Trending/Trending";
 import OfficialNews from "../OfficialNews/OfficialNews";
-
+import HealthInfo from "../HealthInfo/HealthInfo";
+import Unconfirmed from "../UnconfirmInfor/Unconfirmed";
 const { TabPane } = Tabs;
-function callback(key) {
-    console.log(key);
-}
+
 export default class States extends React.Component {
 
 
@@ -19,7 +18,7 @@ export default class States extends React.Component {
 
 
         return <div className="StateShow">
-            <Tabs  size= "small" defaultActiveKey="1" onChange={callback}>
+            <Tabs  size= "small" defaultActiveKey="1" >
 
                 <TabPane   tab="各州信息" key="1">
                     <State/>
@@ -31,10 +30,10 @@ export default class States extends React.Component {
                     <OfficialNews/>
                 </TabPane>
                 <TabPane  tab="未确定信息" key="4">
-                    Content of Tab Pane 3
+                    <Unconfirmed/>
                 </TabPane>
                 <TabPane  tab="健康建议信息" key="5">
-                    Content of Tab Pane 3
+                    <HealthInfo/>
                 </TabPane>
             </Tabs>
 

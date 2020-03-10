@@ -4,12 +4,9 @@ import {CaretRightOutlined} from '@ant-design/icons';
 
 const {Panel} = Collapse;
 
-function genertate() {
 
 
-}
-
-export default class OfficialNews extends React.Component {
+export default class HealthInfo extends React.Component {
 //  <Panel header="Coronavirus: COVID-19 cases continue to climb across Australia" key="2" className="site-collapse-custom-panel">
 //                     <p>Sixth case confirmed in Western Australia
 //                         Two new cases of coronavirus have been confirmed in Western Australia today, one of which is suspected to be the first human-to-human transmission of the virus in the state.
@@ -28,7 +25,7 @@ export default class OfficialNews extends React.Component {
                 Mdata:""
             }
 
-        fetch("./Data/OfficialNews-data.json")
+        fetch("./Data/HealthInfor-data.json")
             .then(res => res.json())
             .then(json => {
 
@@ -38,6 +35,7 @@ export default class OfficialNews extends React.Component {
                         data.push(<Panel header={json[i]['title']} key={i} className="site-collapse-custom-panel">
                          <p>更新时间:{json[i]['time']}</p>
                          <p>正文:{json[i]['content']}</p>
+                         <p><img src={json[i]['imagesrc']}></img></p>
                          <p><a href={json[i]['link']}>原文链接</a></p>
 
                         </Panel>)

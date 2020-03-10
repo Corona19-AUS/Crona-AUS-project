@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38e876ac-b4fc-428d-8b67-1cb8a7674bd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Data/DataView-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my_data_process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Data/EachState-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Data/HealthInfor-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Data/OfficialNews-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Data/Trending-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Data/Unconfrimdinfor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContactInfor/ContactInfor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContactInfor/ContactInfor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HealthInfo/HealthInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HealthInfo/HealthInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnconfirmInfor/Unconfirmed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnconfirmInfor/Unconfirmed.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Data/DataView-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Data/DataView-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataView/DataView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataView/DataView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataView/DataView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataView/DataView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EachState/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/EachState/State.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Functions/Functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OfficialNews/OfficialNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfficialNews/OfficialNews.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +44,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YsJZMFsk0t9JbewC0v6VmqqdvJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/Data" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,11 +67,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\Administrator\WebstormProjects\auscorna\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Administrator\WebstormProjects\auscorna\public" />
+      <recent name="D:\Users\Administrator\WebstormProjects\auscorna\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Administrator\WebstormProjects\auscorna\public\Data" />
       <recent name="D:\Users\Administrator\WebstormProjects\auscorna\src" />
     </key>
   </component>
@@ -91,37 +105,41 @@
       <workItem from="1583751305829" duration="8716000" />
       <workItem from="1583798061504" duration="7266000" />
       <workItem from="1583806054687" duration="4000" />
+      <workItem from="1583831931090" duration="6422000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1583798725029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1583798725029" />
-    <state width="1882" height="279" key="GridCell.Tab.0.bottom" timestamp="1583813138527">
+    <state width="1882" height="279" key="GridCell.Tab.0.bottom" timestamp="1583814949445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583813138527" />
-    <state width="1882" height="279" key="GridCell.Tab.0.center" timestamp="1583813138527">
+    <state width="1882" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583814949445" />
+    <state width="1882" height="279" key="GridCell.Tab.0.center" timestamp="1583814949444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583813138527" />
-    <state width="1882" height="279" key="GridCell.Tab.0.left" timestamp="1583813138527">
+    <state width="1882" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583814949444" />
+    <state width="1882" height="279" key="GridCell.Tab.0.left" timestamp="1583814949444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583813138527" />
-    <state width="1882" height="279" key="GridCell.Tab.0.right" timestamp="1583813138527">
+    <state width="1882" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583814949444" />
+    <state width="1882" height="279" key="GridCell.Tab.0.right" timestamp="1583814949444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1882" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583813138527" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1583729085067">
+    <state width="1882" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583814949444" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1583832102259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583729085067" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583832102259" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

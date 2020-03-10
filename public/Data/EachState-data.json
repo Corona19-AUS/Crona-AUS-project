@@ -1,0 +1,10 @@
+[
+
+ {  "state":"New South Wales","diagnose":"54", "cure":"20","death":"20"},
+
+ {  "state":"Victoria","diagnose":"17", "cure":"20","death":"20"},
+ {  "state":"Queensland","diagnose":"15", "cure":"20","death":"20"},
+ {  "state":"Western Australia","diagnose":"6", "cure":"20","death":"20"},
+ {  "state":"South Australia","diagnose":"7", "cure":"20","death":"20"},
+ {  "state":"Tasmania","diagnose":"2", "cure":"20","death":"20"}
+]
