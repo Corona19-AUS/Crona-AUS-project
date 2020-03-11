@@ -1,17 +1,17 @@
 [
-  {
-    "title": "health gov最新数据（Health更新比较慢，仅供参考）",
-    "content": "As at 11:00 hrs on 10 March 2020, we have 100 confirmed cases of coronavirus (COVID-19), including 3 deaths, in Australia.",
-    "imagesrc": "",
-    "time": "10/3/2020",
-    "link": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert#current-status"
-  },
-  {
-    "title": "Wiki数据，也和最新有点距离，但好很多",
-    "content": "最新115例",
+	{
+    "title": "新州3月11日下午宣布新增4个病例，总人数65",
+    "content": "截止至今天下午1时，又确诊四例新冠，全州总确诊人数达到65人。新的确诊病例包括：3名女性，分别为20多岁和30多岁，新近结伴从意大利回来澳洲。另一例为70多岁的男性，与之前Dorothy Henderson Lodge养老院的居民有接触。新州目前正在各地方卫生区建立COVID-19/流感诊所，以在入冬之际评估诊断可能感染新冠病毒的患者以及其它有诸如流感等呼吸道疾病的患者。新南威尔士州卫生厅也在扩大各公立私立医院的实验室能力，使其可增加分析测试能力以确定这些测试的结果。目前，新南威尔士州卫生厅下的实验所可在三所公立医院每天进行1000多个测试，分别在Randwick、Westmead和Liverpool，之后会新增四所医院，分别为Royal North Shore、Royal Prince Alfred、John Hunter和Nepean。新南威尔士州卫生厅也使用私立病理实验所来协助收集需要新冠测试人们的样本。",
     "imagesrc": "",
     "time": "11/3/2020",
-    "link": "https://en.m.wikipedia.org/wiki/2020_coronavirus_outbreak_in_Australia"
+    "link": "https://www.health.nsw.gov.au/news/Pages/20200311_00.aspx"
+  },
+	{
+    "title": "澳洲将从今晚6点起对意大利实施旅行禁令",
+    "content": "澳洲将从今晚6点起对意大利实施旅行禁令。总理莫里森说他已经接到了意大利的情况跟伊朗，中国和韩国相类似的建议。“当然这意味着任何澳洲人都将被豁免于这些旅行禁令，但是他们需要满足跟其他旅行禁令国家同样的自我隔离要求，”他说。这意味着从周三晚上6点起所有在意大利的澳人需要隔离14天，如果他们希望回国的话。所有来自意大利的非澳洲居民将被禁止入境。",
+    "imagesrc": "",
+    "time": "11/3/2020",
+    "link": "https://www.smh.com.au/national/coronavirus-update-live-nsw-records-more-cases-as-xi-jinping-makes-surprise-visit-to-wuhan-20200311-p548ta.html"
   },
   {
     "title": "维州第16、17、18例：两例是海外归来的，一例是密切接触过海外归来的",

@@ -29,7 +29,7 @@ export default class States extends React.Component {
                 <TabPane   tab="官方新闻" key="2">
                     <OfficialNews/>
                 </TabPane>
-                <TabPane  tab="谣言" key="3">
+                <TabPane  tab="未证实" key="3">
                     <Unconfirmed/>
                 </TabPane>
                 <TabPane  tab="健康建议信息" key="4">

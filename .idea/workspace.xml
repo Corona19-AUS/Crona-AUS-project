@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38e876ac-b4fc-428d-8b67-1cb8a7674bd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Data/IMG/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trending/Trending121.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Data/DataView-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Data/DataView-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Data/HealthInfor-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Data/HealthInfor-data.json" afterDir="false" />
@@ -12,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/public/Data/Unconfrimdinfor.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Data/Unconfrimdinfor.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ContactInfor/ContactInfor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContactInfor/ContactInfor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataView/DataView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataView/DataView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Functions/Functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HealthInfo/HealthInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HealthInfo/HealthInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trending/Trending.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trending/Trending.js" afterDir="false" />
@@ -105,7 +102,8 @@
       <workItem from="1583831931090" duration="7786000" />
       <workItem from="1583841647490" duration="4516000" />
       <workItem from="1583886902850" duration="5124000" />
-      <workItem from="1583898769619" duration="733000" />
+      <workItem from="1583898769619" duration="1205000" />
+      <workItem from="1583928685300" duration="460000" />
     </task>
     <servers />
   </component>
@@ -120,22 +118,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1583798725029" />
-    <state width="1899" height="306" key="GridCell.Tab.0.bottom" timestamp="1583892416072">
+    <state width="1899" height="306" key="GridCell.Tab.0.bottom" timestamp="1583900078996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583892416072" />
-    <state width="1899" height="306" key="GridCell.Tab.0.center" timestamp="1583892416072">
+    <state width="1899" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583900078996" />
+    <state width="1899" height="306" key="GridCell.Tab.0.center" timestamp="1583900078996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="306" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583892416072" />
-    <state width="1899" height="306" key="GridCell.Tab.0.left" timestamp="1583892416072">
+    <state width="1899" height="306" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583900078996" />
+    <state width="1899" height="306" key="GridCell.Tab.0.left" timestamp="1583900078996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="306" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583892416072" />
-    <state width="1899" height="306" key="GridCell.Tab.0.right" timestamp="1583892416072">
+    <state width="1899" height="306" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583900078996" />
+    <state width="1899" height="306" key="GridCell.Tab.0.right" timestamp="1583900078996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="306" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583892416072" />
+    <state width="1899" height="306" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583900078996" />
     <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1583890302271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

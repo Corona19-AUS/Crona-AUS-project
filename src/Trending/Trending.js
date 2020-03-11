@@ -95,6 +95,11 @@ export default class Trending extends React.Component {
 
                         },
                         {
+                            name: 'Northern Territory',
+                            data: json[0]['state']['Northern Territory'],
+
+                        },
+                        {
                             name: 'All Australia',
                             data: json[0]['state']['All Australia'],
 
@@ -108,7 +113,7 @@ export default class Trending extends React.Component {
 
 
                     });
-                console.log(this.state.config)
+                
 
 
             })

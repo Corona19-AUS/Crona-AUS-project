@@ -43,16 +43,15 @@ export default class Unconfirmed extends React.Component {
 
                             }
                         }
-                    	 else
-                         {
-                             imageStyle = {
-                                 width:0,
-                                 height:0
+                         else{
+                        	 imageStyle = {
+                                width:"",
+                                height:""
 
-                             }
-
-                         }
-
+                            }
+                        	
+                        }
+                    	
                         data.push(<Panel header={json[i]['title']} key={i} className="site-collapse-custom-panel">
                          <p>更新时间:{json[i]['time']}</p>
                          <p>正文:{json[i]['content']}</p>

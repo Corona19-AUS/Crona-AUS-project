@@ -1,12 +1,12 @@
 [
 {
  "Time":"03-11-2020",
- "Confirmed":"115",
- "Confirmed_new":"+5",
+ "Confirmed":"123",
+ "Confirmed_new":"+13",
  "Recovered":"22",
- "Recovered_new":"+10",
+ "Recovered_new":"+0",
  "Deaths":"3",
- "Deaths_new": "+10",
+ "Deaths_new": "+0",
  "Existing":"66",
  "Existing_new": "+10"
 }
