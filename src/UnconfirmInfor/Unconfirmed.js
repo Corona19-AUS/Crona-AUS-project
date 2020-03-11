@@ -30,12 +30,33 @@ export default class Unconfirmed extends React.Component {
             .then(json => {
 
                     var data = [];
+                     var imageStyle = {
+
+                    };
 
                     for (var i = 0; i < json.length; i++) {
+                    	 if(json[i]['imagesrc']!="")
+                        {
+                            imageStyle = {
+                                width:"40%",
+                                height:"60%"
+
+                            }
+                        }
+                    	 else
+                         {
+                             imageStyle = {
+                                 width:0,
+                                 height:0
+
+                             }
+
+                         }
+
                         data.push(<Panel header={json[i]['title']} key={i} className="site-collapse-custom-panel">
                          <p>更新时间:{json[i]['time']}</p>
                          <p>正文:{json[i]['content']}</p>
-                         <p><img src={json[i]['imagesrc']}></img></p>
+                          <p><img  style={imageStyle} src={json[i]['imagesrc']}></img></p>
                          <p><a href={json[i]['link']}>原文链接</a></p>
 
                         </Panel>)

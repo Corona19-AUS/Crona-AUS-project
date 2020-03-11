@@ -1,16 +1,130 @@
 [
   {
-    "title": "healthinf",
-    "content": "content",
+    "title": "针对新型冠状病毒的基本防护措施",
+    "author": "世界卫生组织（WHO）",
+    "content": "请随时关注世卫组织网站上以及国家和地方公共卫生机构提供的关于2019冠状病毒病疫情的最新信息。\n2019冠状病毒病主要仍影响中国，但其他国家也发生了一些疫情。大多数感染者症状轻微并会康复，但有些感染者可能会患重症。可以采取以下方式维护本人和他人健康：\n勤洗手\n如果双手不明显脏，经常用含酒精成分的免洗洗手液清洁手或用肥皂和清水洗手。\n理由：用含酒精成分的免洗洗手液清洁手或用肥皂和清水洗手可以杀灭手上的病毒。",
     "imagesrc": "",
-    "time": "time",
-    "link": "link"
+    "time": "2020/3/11",
+    "link": "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
   },
   {
-    "title": "title",
-    "content": "content",
+    "title": "何时及如何使用口罩",
+    "author": "世界卫生组织（WHO）",
+    "content": "什么时候戴口罩？\n如果您身体健康，仅在照顾2019-nCoV疑似感染者时才需要戴口罩。\n如果您咳嗽或打喷嚏，应戴口罩。\n为有效防护，除了戴口罩外，还需要经常用含酒精成分的免洗洗手液或肥皂和清水洗手。\n如果佩戴口罩，必须了解如何使用和适当处置口罩。\n如何佩戴、使用、取下和处置口罩\n戴口罩前用含酒精成分的免洗洗手液清洁手或用肥皂和清水洗手。\n用口罩遮盖口鼻并系牢，确保面部与口罩之间无空隙。\n在佩戴过程中避免触摸口罩；如果触摸了口罩，要用含酒精成分的免洗洗手液清洁手或用肥皂和清水洗手。\n如果口罩变得潮湿，应立即换上新口罩。不要重复使用一次性口罩。\n取下口罩：手不要触摸口罩面，通过两端线绳取下口罩，立即将其丢进封闭的垃圾桶，并用含酒精成分的免洗洗手液清洁手或用肥皂和清水洗手。",
     "imagesrc": "",
-    "time": "time",
-    "link": "link"
+    "time": "2020/3/11",
+    "link": "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks"
+  },
+  {
+    "title": "新型冠状病毒不能通过蚊虫叮咬传播",
+    "author": "世界卫生组织（WHO）",
+    "content": "迄今为止，没有任何信息或证据表明蚊子可能传播2019冠状病毒病。新型冠状病毒是呼吸道病毒，它主要通过接触已感染者咳嗽或打喷嚏时产生的呼吸道飞沫，或通过接触其唾液或鼻涕而传播。为保护自己，勤用含酒精成分的免洗洗手液或肥皂和清水洗手，并避免与咳嗽或打喷嚏者密切接触。",
+    "imagesrc": "",
+    "time": "2020/2/28",
+    "link": "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+  },
+  {
+    "title": "干手器对杀死新型冠状病毒有效吗？",
+    "author": "世界卫生组织（WHO）",
+    "content": "无效。干手器不能有效杀死新型冠状病毒。为了防止自己感染新型冠状病毒，应该经常用含酒精成分的免洗洗手液或用肥皂和水洗手。将手清洗干净后，用纸巾彻底擦干或用暖风干手器彻底烘干。",
+    "imagesrc": "",
+    "time": "2020/2/28",
+    "link": "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+  },
+  {
+    "title": "紫外线消毒灯能杀死新型冠状病毒吗？",
+    "author": "世界卫生组织（WHO）",
+    "content": "紫外线灯不应用于手部或其他皮肤部位的消毒，因为紫外线辐射会导致红斑（皮肤过敏）。",
+    "imagesrc": "",
+    "time": "2020/2/28",
+    "link": "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+  },
+  {
+    "title": "全身喷洒酒精或氯能杀死新型冠状病毒吗？",
+    "author": "世界卫生组织（WHO）",
+    "content": "不能。全身喷洒酒精或氯不会杀死已经进入体内的病毒。喷洒此类物质可能对衣服或粘膜（即眼睛、口腔）有害。请注意，酒精和氯可能对消毒各种表面有用，但是使用时须遵循适当的建议。",
+    "imagesrc": "",
+    "time": "2020/2/28",
+    "link": "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+  },
+  {
+    "title": "宠物会传播新型冠状病毒吗？",
+    "author": "世界卫生组织（WHO）",
+    "content": "目前，没有证据显示狗猫等宠物会感染新型冠状病毒。然而，与宠物接触后，用肥皂和水洗手可以显著减少其他常见细菌在宠物和人类之间的传播，例如大肠杆菌和沙门氏菌。",
+    "imagesrc": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/1.png?sfvrsn=3dfc542_4",
+    "time": "2020/2/28",
+    "link": "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+  },
+  {
+    "title": "定期用生理盐水清洗鼻子是否有助于预防感染新型冠状病毒？",
+    "author": "世界卫生组织（WHO）",
+    "content": "没有证据表明，经常用生理盐水冲洗鼻子可以防止感染新型冠状病毒（2019-nCoV）。\n有一些有限的证据表明，经常用生理盐水清洗鼻子可以帮助人们更快地从普通感冒中恢复过来。然而，经常清洗鼻子并不能预防呼吸道感染。",
+    "imagesrc": "",
+    "time": "2020/2/28",
+    "link": "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+  },
+  {
+    "title": "吃大蒜能预防新型冠状病毒感染吗？",
+    "author": "世界卫生组织（WHO）",
+    "content": "大蒜是一种健康食品，可能有一些抗菌特性。然而，从目前的疫情来看，没有证据表明食用大蒜可以保护人们免受新型冠状病毒的感染。",
+    "imagesrc": "",
+    "time": "2020/2/28",
+    "link": "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+  },
+  {
+    "title": "抗生素在预防和治疗新型冠状病毒方面有效吗？",
+    "author": "世界卫生组织（WHO）",
+    "content": "抗生素对病毒无效，只对细菌有效。\n新型冠状病毒是一种病毒，因此，不应将抗生素用作预防或治疗手段。\n然而，如果你因新型冠状病毒住院，你可能会接受抗生素治疗，因为有可能同时感染细菌。",
+    "imagesrc": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/3.png?sfvrsn=ea08fb20_4",
+    "time": "2020/2/28",
+    "link": "https://www.who.int/zh/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+  },
+  {
+    "title": "接收来自据报有2019冠状病毒病疫情的任何地区的包裹安全吗？",
+    "author": "世界卫生组织（WHO）",
+    "content": "是的。感染者导致商品污染的可能性很低。人们从经过不同环境和气温条件送达的包裹中感染新型冠状病毒的风险也很低。",
+    "imagesrc": "",
+    "time": "2020/2/28",
+    "link": "https://www.who.int/zh/news-room/q-a-detail/q-a-coronaviruses"
+  },
+  {
+    "title": "网上卖的「日本消毒卡」声称挂身上能灭病毒，靠谱吗？",
+    "author": "老爸评测",
+    "content": "除菌率为0。在空气流通的开放空间里，光靠挂上这个消毒卡，就想达到消毒的作用，效果是微乎其微。如果真的要用二氧化氯气体进行空气消毒，那也要在密闭的空间里进行。但这样做，可能细菌还没杀死，你自己就先被熏晕了。",
+    "imagesrc": "https://pic4.zhimg.com/80/v2-15dc3aafbefd5e7464559aa2560f8d2c_720w.jpg",
+    "time": "2019/05/20",
+    "link": "https://www.zhihu.com/question/27820531/answer/689342442"
+  },
+  {
+    "title": "一次性口罩电吹风吹30分钟可再用？",
+    "author": "冷哲",
+    "content": "说实在的，一次性口罩压根就没有重复利用的合适方式。这些东西在设计的时候就没有考虑可重复利用的内容。能重复消毒的只有咱们那种保暖用的棉口罩。所以当下主流说法中提到的各种重复利用方式都有问题，几乎每种方式都会破坏口罩的防护效果，区别是程度强弱。比如，用空调吹，暖气烤，这2个就是作死释放口罩上可能吸附的病毒。在比如，所有跟水相关的，这种都会破坏口罩的的密封性，甚至有一些直接就碎了。还有紫外线相关，比如UV灯或者晒太阳，大量的紫外线会让口罩里边的成分发生变化，产生微塑料。UV比较强，太阳比较弱，但是结果也只是强弱的区别，所以有人说可以把口罩放到阳光照射的下风处吹晒，其实这个方法也一样会破坏口罩的结构。",
+    "imagesrc": "",
+    "time": "2020/02/13",
+    "link": "https://www.zhihu.com/question/370839038/answer/1008126027"
+  },
+  {
+    "title": "气溶胶能把病毒带走13公里？",
+    "author": "冷哲",
+    "content": "没有必要恐慌，我们面对的病毒传播一直是这样(编者注：指可通过气溶胶传播)的，只是可能你刚知道而已。要记得是我们新发现了病毒会通过气溶胶传播，并不是病毒新学会了气溶胶传播。我们空气中各种各样的病毒（包括新冠病毒），都一直在用气溶胶传播方式呢，这都几个月了大家不都还平安无事吗？不要无意义的给自己和其他人制造恐慌。",
+    "imagesrc": "",
+    "time": "2020/02/09",
+    "link": "https://zhuanlan.zhihu.com/p/105814567"
+  },
+  {
+    "title": "喝酒可以预防或者治疗新型冠状病毒？NO！",
+    "author": "新华社",
+    "content": "河北省新型冠状病毒感染的肺炎救治专家组组长阎锡新说，新型冠状病毒确实对酒精是不耐受的，酒精具有不错的消毒作用。但是人喝酒以后，酒精经过胃肠进入到血流当中，经过肝脏代谢排除掉。而新型冠状病毒感染是病毒进入呼吸道，引起气道和肺的病变。“人喝酒以后，酒精在气道里面的含量，远远不足以杀死病毒，所以不存在喝酒来预防或者治疗新型冠状病毒感染的可能性。相反，过量饮酒降低机体抵抗力，容易招致更严重的感染。”阎锡新说。",
+    "imagesrc": "",
+    "time": "2020/01/26",
+    "link": "https://xhpfmapi.zhongguowangshi.com/vh512/share/8827992"
+  },
+  {
+    "title": "吃大剂量抗流感药能预防新型冠状病毒感染？",
+    "author": "新华社",
+    "content": "中华预防医学会医院感染控制分会吴安华教授认为，目前没有循证医学证据表明抗流感药物如阿比多尔对于新型冠状病毒感染有预防作用，大剂量服用阿比多尔是有副作用的，其不良事件发生率约为6.2%，主要表现为恶心、腹泻、头晕和血清转氨酶增高。特别要注意的是孕妇及哺乳期妇女、严重肾功能不全者一定要慎用此类药物。",
+    "imagesrc": "",
+    "time": "2020/01/26",
+    "link": "https://xhpfmapi.zhongguowangshi.com/vh512/share/8827992"
   }
 ]

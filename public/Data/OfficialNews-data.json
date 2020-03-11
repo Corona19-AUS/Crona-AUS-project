@@ -1,16 +1,30 @@
 [
   {
-    "title": "news",
-    "content": "content",
+    "title": "health gov最新数据（Health更新比较慢，仅供参考）",
+    "content": "As at 11:00 hrs on 10 March 2020, we have 100 confirmed cases of coronavirus (COVID-19), including 3 deaths, in Australia.",
     "imagesrc": "",
-    "time": "time",
-    "link": "link"
+    "time": "10/3/2020",
+    "link": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert#current-status"
   },
   {
-    "title": "title",
-    "content": "content",
+    "title": "Wiki数据，也和最新有点距离，但好很多",
+    "content": "最新115例",
     "imagesrc": "",
-    "time": "time",
-    "link": "link"
+    "time": "11/3/2020",
+    "link": "https://en.m.wikipedia.org/wiki/2020_coronavirus_outbreak_in_Australia"
+  },
+  {
+    "title": "维州第16、17、18例：两例是海外归来的，一例是密切接触过海外归来的",
+    "content": "新冠肺炎恐慌给维州各医院造成了压力，候诊的人站到了人行步道上。第16例是一名70多岁男子，3月6日从新加坡回到墨尔本，航班号是 EK404。邻近座位的乘客将被当局联系上。这名男子去过了以色列、约旦、埃及和新加坡，2月27日在埃及期间感觉不适。他有流鼻涕、咳嗽、嗓子疼。现在他在自家隔离。确诊之前，他在3月6日上午8：30-10点去过 South Melbourne Market，次日夜间6点-10点在 Albert Park Hotel参加了一次聚餐。Albert Park Hotel原本定于本周重新开业，现在已经推迟了。卫生厅认定这间酒店是安全的，但是因为周六上班的员工要去隔离两周，所以酒店还是关门的。第17例是 Carey Baptist Grammer的老师。这是维州首例人传人病例，因为这名女子没有去过海外，但是接触过一个2月28日乘坐 UA60 从美国回来的人。女老师50多岁，现在自家隔离。确诊前她在3月80日上午10点到下午4点，去了Balwyn North 观看了16岁以下的板球决赛。\n第18例是70多岁男子，3月8日从洛杉矶乘坐VA24抵达墨尔本。他在降落后马上就去医院做检测了，现在自家隔离。",
+    "imagesrc": "",
+    "time": "10/3/2020",
+    "link": "https://www.perthnow.com.au/news/vic/public-event-cancellations-likely-as-coronavirus-cases-grow-ng-3281f468bcb9a6c7b4ea882bdde2c69c"
+  },
+  {
+    "title": "昆州今天下午增多三例新冠，总数达到18",
+    "content": "今天下午，昆州卫生厅宣布，有三名昆州人被证实感染了新冠，这样昆州共有 18人感染了新型冠状病毒。1. 一名42岁的妇女来自 阳光海岸地区，她在阳光海岸大学医院接受治疗。她是另外一名38岁妇女的伴侣，她从伦敦经迪拜飞来布里斯班后，于3月8日被检测出，对COVID-19呈阳性。\n2. 一名46岁的布里斯班妇女最近前往奥地利和法国，回来后被证实感染了该病。目前她在皇家布里斯班和妇女医院接受治疗。\n3. 第三例是一名22岁男子，他在前往西班牙，意大利和法国后，最近返回布里斯班。",
+    "imagesrc": "",
+    "time": "10/3/2020",
+    "link": "https://www.news.com.au/lifestyle/health/health-problems/coronavirus-australia-coronavirus-forces-elite-melbourne-school-to-shut/live-coverage/5858b3447be04c6938dc61ded8930071"
   }
 ]

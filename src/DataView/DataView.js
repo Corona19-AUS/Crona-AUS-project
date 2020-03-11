@@ -46,6 +46,7 @@ export default class DataVew extends React.Component {
 
                 this.setState(
                     {
+                    	Time: json[0]["Time"],
                         Confirmed: json[0]["Confirmed"],
                         Confirmed_new:json[0]["Confirmed_new"],
                         Confirmed_trending:get_trending(json[0]["Confirmed_new"]),
@@ -83,62 +84,49 @@ export default class DataVew extends React.Component {
 
         return <div className="site-card-wrapper">
             <h2 className="time">更新时间：{this.state.Time}</h2>
-            <Row>
-                <Col span={6}>
+            <Row  gutter={16}>
+                <Col span={8}>
                     <Card bordered={true}>
                         <Statistic
-                            title="确诊人数"
+                            title="确诊"
                             value={this.state.Confirmed}
-                            precision={0}
+
                             valueStyle={{color: "blue"}}
-                            prefix={this.state.Confirmed_trending}
-                            suffix={this.state.Confirmed_new}
+
+
 
                         />
 
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col span={8}>
                     <Card bordered={true}>
                         <Statistic
-                            title="治愈人数"
+                            title="治愈"
                             value={this.state.Recovered}
-                            precision={0}
+
                             valueStyle={{color: "green"}}
-                            prefix={this.state.Recovered_trending}
-                            suffix={this.state.Recovered_new}
+
+
 
                         />
                     </Card>
                 </Col>
-                <Col span={6}>
+                <Col span={8}>
                     <Card bordered={true}>
                         <Statistic
-                            title="死亡人数"
+                            title="死亡"
                             value={this.state.Deaths}
-                            precision={0}
+
                             valueStyle={{color: "red"}}
-                            prefix={this.state.Deaths_new_trending}
-                            suffix={this.state.Deaths_new}
+
+
 
                         />
 
                     </Card>
                 </Col>
-                <Col span={6}>
-                    <Card bordered={true}>
-                        <Statistic
-                            title="现存人数"
-                            value={this.state.Existing}
-                            precision={0}
-                            valueStyle={{color: "purple"}}
-                            prefix={this.state.Existing_new_trending}
-                            suffix= {this.state.Existing_new}
 
-                        />
-
-                    </Card>
-                </Col>
             </Row>
 
 
