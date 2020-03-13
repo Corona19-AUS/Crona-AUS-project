@@ -1,7 +1,6 @@
 import React from "react";
-import {Card, Col, Row} from "antd";
+
 import { Tabs } from 'antd';
-import State from "../EachState/State";
 import Trending from "../Trending/Trending";
 import OfficialNews from "../OfficialNews/OfficialNews";
 import HealthInfo from "../HealthInfo/HealthInfo";
@@ -14,15 +13,12 @@ export default class States extends React.Component {
 
 
     render() {
-
-
+        //tab 功能 的位置，加新模块就加tabpane，并在标签里面渲染新的组件
 
         return <div className="StateShow">
             <Tabs  size= "small" defaultActiveKey="1" >
 
-                {/*<TabPane   tab="各州信息" key="1">*/}
-                {/*    <State/>*/}
-                {/*</TabPane>*/}
+
                 <TabPane  tab="趋势" key="1">
                     <Trending/>
                 </TabPane>

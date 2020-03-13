@@ -1,9 +1,9 @@
 import React from 'react';
-import {Table} from 'antd';
+
 import {Statistic, Card, Col, Row} from 'antd';
 import {ArrowUpOutlined, ArrowDownOutlined} from '@ant-design/icons';
 
-// import getJsonObject  from "../my_data_process";
+
 
 function get_trending (numberString){
     if(parseInt(numberString)>=0)

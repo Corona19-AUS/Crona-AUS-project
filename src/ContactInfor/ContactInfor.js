@@ -23,7 +23,7 @@ export default class DataVew extends React.Component {
     state={
         infor:[
             {content:"如有发烧或咳嗽症状，海外旅行或和本地确诊有过交集，请致电您的GP或者临近的医院（不要直接拜访),或致电各州求助电话"},
-            {content:"值此病毒高发阶段，以下热线可能会非常繁忙，所以如果有可能请先致电GP或附近医院以获得帮助"},
+            {content:"目前CDC电话处理速度加快，建议先拨打以下电话"},
             {content:"NSW: 1300 066 055 或1800 022 222"},
             {content:"VIC： 1300 651 160"},
             {content:"QLD：13 432 584"},
@@ -31,7 +31,12 @@ export default class DataVew extends React.Component {
             {content:"SA：1300 232 272"},
             {content:"TAS：1800 671 738"},
             {content:"NT：08 8922 8044"},
-            {content:"ACT：02 6205 2155"}
+            {content:"ACT：02 6205 2155"},
+            {content:"以下为NSW 新冠状病毒检查医院(大家前去检查是请做好防护，这些医院均有阳性确诊过）"},
+            {content:"Royal Prince Alfred Hospital 8.00 am until 10.00 pm daily"},
+            {content:"Concord Hospital 8.00am until 6.00pm daily"},
+            {content:"St Vincent’s Hospital 10.30am to 6.00pm daily"},
+            {content:"Prince of Wales Hospital 10.00am to 8.00pm Monday – Friday, 10.00am to 1.00pm Sat/Sun – Building 14B Avoca St, Randwick "}
             ]
     };
 
@@ -42,7 +47,11 @@ export default class DataVew extends React.Component {
 
     render() {
 
-
+        var element = []
+        for( var i in this.state.infor)
+        {
+            element.push( <p>{this.state.infor[i].content}</p>)
+        }
 
 
 
@@ -52,15 +61,8 @@ export default class DataVew extends React.Component {
             <Row>
                 <Col span={24}>
                     <Card bordered={true}>
-                     <p>{this.state.infor[0].content}</p>
-                      <p>{this.state.infor[1].content}</p>
-                      <p>{this.state.infor[2].content}</p>
-                        <p>{this.state.infor[3].content}</p>
-                        <p>{this.state.infor[4].content}</p>
-                        <p>{this.state.infor[5].content}</p>
-                        <p>{this.state.infor[6].content}</p>
-                        <p>{this.state.infor[7].content}</p>
-                        <p>{this.state.infor[8].content}</p>
+                        {element}
+
                     </Card>
                 </Col>
 

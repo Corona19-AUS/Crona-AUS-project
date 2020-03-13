@@ -10,6 +10,7 @@
     "bizcharts": "^3.5.8",
     "highcharts": "^8.0.3",
     "react": "^16.13.0",
+    "react-bmap": "^1.0.115",
     "react-charts": "^2.0.0-beta.6",
     "react-dom": "^16.13.0",
     "react-highcharts": "^16.1.0",
@@ -40,5 +41,6 @@
     "antd": "^4.0.2"
   },
   "homepage": "./"
+
 
 }

@@ -7,16 +7,8 @@ const {Panel} = Collapse;
 
 
 export default class HealthInfo extends React.Component {
-//  <Panel header="Coronavirus: COVID-19 cases continue to climb across Australia" key="2" className="site-collapse-custom-panel">
-//                     <p>Sixth case confirmed in Western Australia
-//                         Two new cases of coronavirus have been confirmed in Western Australia today, one of which is suspected to be the first human-to-human transmission of the virus in the state.
-//                         The woman, in her 60s, was diagnosed after her husband returned from Iran and is still being tested for the virus.
-//                         The couple is self-isolating at home, with regular monitoring being conducted by the Health Department. Her husband is being tested for the virus.
-//                         <a href="https://www.9news.com.au/national/coronavirus-victoria-three-new-cases-covid19-three-sydney-high-school-students-diagnosed-australia/a16ff590-51d9-4b04-b377-96fdb0db05bf">link</a>
-//                     </p>
-//
-//                 </Panel>
 
+    //信息类，可考虑在constructor就调用数据或者render完再用componentDidMount渲染数据
     constructor(props) {
         super(props);
 
@@ -30,17 +22,17 @@ export default class HealthInfo extends React.Component {
             .then(json => {
 
                     var data = [];
-                       
+
                     var imageStyle = {
                     	width:0,
                     	height:0
                     }
 
-                   
+
                     for (var i = 0; i < json.length; i++) {
                     	 if(json[i]['imagesrc']!="")
                         {
-                        	
+
                             imageStyle = {
                                 width:"20%",
                                 height:"50%"
@@ -53,7 +45,7 @@ export default class HealthInfo extends React.Component {
                                 height:""
 
                             }
-                        	
+
                         }
 
                         data.push(<Panel header={json[i]['title']} key={i} className="site-collapse-custom-panel">
