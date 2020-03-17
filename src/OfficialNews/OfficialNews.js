@@ -17,7 +17,7 @@ export default class OfficialNews extends React.Component {
                 Mdata:""
             }
 
-        fetch("./Data/OfficialNews-data.json")
+        fetch("https://corona19-api.herokuapp.com/api/official_news")
             .then(res => res.json())
             .then(json => {
 
@@ -25,7 +25,7 @@ export default class OfficialNews extends React.Component {
 
                     for (var i = 0; i < json.length; i++) {
                         data.push(<Panel header={json[i]['title']} key={i} className="site-collapse-custom-panel">
-                         <p>更新时间:{json[i]['time']}</p>
+                         <p>更新时间:{json[i]['created_at']}</p>
                          <p>正文:{json[i]['content']}</p>
                          <p><a href={json[i]['link']}>原文链接</a></p>
 

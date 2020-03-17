@@ -31,6 +31,15 @@ export default class States extends React.Component {
                 <TabPane  tab="健康建议信息" key="4">
                     <HealthInfo/>
                 </TabPane>
+                <TabPane  tab="医疗监测点" key="5">
+                    <div className="AspNet-WebPart">
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1HjTgBgEnMhkJ1c6De3aAxfG5F2s1ItiU"
+                                width="100%" height="560"></iframe>
+
+                    </div>
+                </TabPane>
+
+
             </Tabs>
 
         </div>;

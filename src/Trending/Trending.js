@@ -47,7 +47,7 @@ export default class Trending extends React.Component {
            }
 
         }
-        fetch("./Data/Trending-data.json")
+        fetch("https://corona19-api.herokuapp.com/api/trending")
             .then(res => res.json())
             .then(json => {
                 var config = {
@@ -66,42 +66,42 @@ export default class Trending extends React.Component {
                         enabled: false
                     },
                     xAxis: {
-                        categories: json[0]['time']
+                        categories: json['time']
                     },
                     series: [{
                         name: 'New South Wales',
-                        data: json[0]['state']['New South Wales'],
+                        data: json['state']['New South Wales'],
 
                     }, {
                         name: ' Victoria',
-                        data: json[0]['state']['Victoria'],
+                        data: json['state']['Victoria'],
 
                     }, {
                         name: 'Queensland',
-                        data: json[0]['state']['Queensland'],
+                        data: json['state']['Queensland'],
 
                     }, {
                         name: 'Western Australia',
-                        data: json[0]['state']['Western Australia'],
+                        data: json['state']['Western Australia'],
 
                     }, {
                         name: 'South Australia',
-                        data: json[0]['state']['South Australia'],
+                        data: json['state']['South Australia'],
 
                     },
                         {
                             name: 'Tasmania',
-                            data: json[0]['state']['Tasmania'],
+                            data: json['state']['Tasmania'],
 
                         },
                         {
                             name: 'Northern Territory',
-                            data: json[0]['state']['Northern Territory'],
+                            data: json['state']['Northern Territory'],
 
                         },
                         {
                             name: 'All Australia',
-                            data: json[0]['state']['All Australia'],
+                            data: json['All Australia'],
 
                         }],
                 };

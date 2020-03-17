@@ -38,7 +38,7 @@ export default class DataVew extends React.Component {
             Existing_new:"0",
             Existing_trending:"0",
         }
-        fetch("./Data/DataView-data.json")
+        fetch("https://corona19-api.herokuapp.com/api/overview")
             .then(res => res.json())
             .then(json =>
             {
@@ -46,19 +46,19 @@ export default class DataVew extends React.Component {
 
                 this.setState(
                     {
-                    	Time: json[0]["Time"],
-                        Confirmed: json[0]["Confirmed"],
-                        Confirmed_new:json[0]["Confirmed_new"],
-                        Confirmed_trending:get_trending(json[0]["Confirmed_new"]),
-                        Recovered:json[0]["Recovered"],
-                        Recovered_new:json[0]["Recovered_new"],
-                        Recovered_trending:get_trending(json[0]["Recovered_new"]),
-                        Deaths:json[0]["Deaths"],
-                        Deaths_new:json[0]["Deaths_new"],
-                        Deaths_new_trending:get_trending(json[0]["Deaths_new"]),
-                        Existing:json[0]["Existing"],
-                        Existing_new:json[0]["Existing_new"],
-                        Existing_new_trending:get_trending(json[0]["Existing_new"]),
+                    	Time: json["Time"],
+                        Confirmed: json["Confirmed"],
+                        Confirmed_new:json["Confirmed_new"],
+                        Confirmed_trending:get_trending(json["Confirmed_new"]),
+                        Recovered:json["Recovered"],
+                        Recovered_new:json["Recovered_new"],
+                        Recovered_trending:get_trending(json["Recovered_new"]),
+                        Deaths:json["Deaths"],
+                        Deaths_new:json["Deaths_new"],
+                        Deaths_new_trending:get_trending(json["Deaths_new"]),
+                        Existing:json["Existing"],
+                        Existing_new:json["Existing_new"],
+                        Existing_new_trending:get_trending(json["Existing_new"]),
 
 
                     });

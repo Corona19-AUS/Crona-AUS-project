@@ -16,7 +16,7 @@ function App() {
         <div >
         <DataView/>
         <Functions/>
-        <Location/>
+        {/*<Location/>*/}
         <ContactInfor/>
         </div>
         <footer ><a href="https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert#current-status">澳大利亚政府卫生部官方网站</a><p></p><a href="https://en.m.wikipedia.org/wiki/2020_coronavirus_outbreak_in_Australia">澳大利亚新冠疫情维基百科</a><p></p><a href="https://www.news.com.au/topics/coronavirus">新闻集团新冠疫情最新数据</a>    </footer>

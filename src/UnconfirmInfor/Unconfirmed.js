@@ -16,7 +16,7 @@ export default class Unconfirmed extends React.Component {
                 Mdata:""
             }
 
-        fetch("./Data/Unconfrimdinfor.json")
+        fetch("https://corona19-api.herokuapp.com/api/unconfirmed_infos")
             .then(res => res.json())
             .then(json => {
 
@@ -44,7 +44,7 @@ export default class Unconfirmed extends React.Component {
                         }
 
                         data.push(<Panel header={json[i]['title']} key={i} className="site-collapse-custom-panel">
-                         <p>更新时间:{json[i]['time']}</p>
+                         <p>更新时间:{json[i]['created_at']}</p>
                          <p>正文:{json[i]['content']}</p>
                           <p><img  style={imageStyle} src={json[i]['imagesrc']}></img></p>
                          <p><a href={json[i]['link']}>原文链接</a></p>
