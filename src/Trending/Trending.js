@@ -6,7 +6,7 @@ export default class Trending extends React.Component {
         super(props);
         this.state = {
 
-           config : {
+            config : {
                 title: {
                     text: '各州确诊统计'
                 },
@@ -22,7 +22,7 @@ export default class Trending extends React.Component {
                     enabled: false
                 },
                 xAxis: {
-                    categories: ['']
+                    categories: []
                 },
                 series: [{
                     name: 'New South Wales',
@@ -41,21 +41,26 @@ export default class Trending extends React.Component {
                     data: []
                 },
                     {
+                        name: 'Australian Capital Territory',
+                        data: []
+                    },
+                    {
                         name: 'Tasmania',
                         data: []
                     }]
-           }
+            }
 
         }
         fetch("https://corona19-api.herokuapp.com/api/trending")
             .then(res => res.json())
             .then(json => {
+                var myDate = new Date();
                 var config = {
                     title: {
                         text: '各州确诊统计'
                     },
                     subtitle: {
-                        text: '为止'
+                        text: myDate.toLocaleString()+"为止"
                     },
                     yAxis: {
                         title: {
@@ -97,6 +102,11 @@ export default class Trending extends React.Component {
                         {
                             name: 'Northern Territory',
                             data: json['state']['Northern Territory'],
+
+                        },
+                        {
+                            name: 'Australian Capital Territory',
+                            data: json['state']['Australian Capital Territory'],
 
                         },
                         {

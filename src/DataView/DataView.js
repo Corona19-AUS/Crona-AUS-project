@@ -2,6 +2,7 @@ import React from 'react';
 
 import {Statistic, Card, Col, Row} from 'antd';
 import {ArrowUpOutlined, ArrowDownOutlined} from '@ant-design/icons';
+import {FormattedMessage} from "react-intl";
 
 
 
@@ -76,6 +77,25 @@ export default class DataVew extends React.Component {
 
 
     render() {
+        var c_s="+";
+        var r_s="+";
+        var d_s="+";
+        if(this.state.Confirmed_new<0)
+        {
+            c_s=""
+        }
+        if(this.state.Recovered_new<0)
+        {
+            r_s=""
+        }
+        if(this.state.Deaths_new<0)
+        {
+            d_s=""
+        }
+
+        var confirmTitle =<span style={{color:"blue"}}><FormattedMessage  id="DataView-Confirm" values={{ name: 'React' }}/>{c_s} {this.state.Confirmed_new}</span>
+        var recoverTitle =<span style={{color:"green"}}><FormattedMessage  id="DataView-Recovery" values={{ name: 'React' }}/>{r_s} {this.state.Recovered_new}</span>
+        var deathTitle =<span style={{color:"red"}}><FormattedMessage  id="DataView-Death" values={{ name: 'React' }}/>{d_s} {this.state.Deaths_new}</span>
 
 
 
@@ -83,12 +103,12 @@ export default class DataVew extends React.Component {
 
 
         return <div className="site-card-wrapper">
-            <h2 className="time">更新时间：{this.state.Time}</h2>
+            <h2 className="time">   <FormattedMessage id="update-time" values={{ name: 'React' }}/>{this.state.Time}</h2>
             <Row  gutter={16}>
                 <Col span={8}>
                     <Card bordered={true}>
                         <Statistic
-                            title="确诊"
+                            title= {confirmTitle}
                             value={this.state.Confirmed}
 
                             valueStyle={{color: "blue"}}
@@ -102,8 +122,10 @@ export default class DataVew extends React.Component {
                 <Col span={8}>
                     <Card bordered={true}>
                         <Statistic
-                            title="治愈"
+                            title={recoverTitle}
                             value={this.state.Recovered}
+
+
 
                             valueStyle={{color: "green"}}
 
@@ -115,7 +137,7 @@ export default class DataVew extends React.Component {
                 <Col span={8}>
                     <Card bordered={true}>
                         <Statistic
-                            title="死亡"
+                            title={deathTitle}
                             value={this.state.Deaths}
 
                             valueStyle={{color: "red"}}

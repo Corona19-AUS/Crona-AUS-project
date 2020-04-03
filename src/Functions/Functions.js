@@ -5,7 +5,15 @@ import Trending from "../Trending/Trending";
 import OfficialNews from "../OfficialNews/OfficialNews";
 import HealthInfo from "../HealthInfo/HealthInfo";
 import Unconfirmed from "../UnconfirmInfor/Unconfirmed";
+import MbMap from "../OtherMap/OtherMap";
+import Location from "../LocationSituation/Location";
+import ExpertQA from "../ExpertQA/ExpertQA";
+
+import {FormattedMessage} from "react-intl";
 const { TabPane } = Tabs;
+
+
+
 
 export default class States extends React.Component {
 
@@ -19,24 +27,26 @@ export default class States extends React.Component {
             <Tabs  size= "small" defaultActiveKey="1" >
 
 
-                <TabPane  tab="趋势" key="1">
+                <TabPane  tab={  <FormattedMessage id="function-Trending" values={{ name: 'React' }} />} key="1">
                     <Trending/>
                 </TabPane>
-                <TabPane   tab="官方新闻" key="2">
+                <TabPane   tab={  <FormattedMessage id="OfficialNews" values={{ name: 'React' }} />} key="2">
                     <OfficialNews/>
                 </TabPane>
-                <TabPane  tab="未证实" key="3">
+                <TabPane  tab={  <FormattedMessage id="Unconfirm" values={{ name: 'React' }} />} key="3">
                     <Unconfirmed/>
                 </TabPane>
                 <TabPane  tab="健康建议信息" key="4">
                     <HealthInfo/>
                 </TabPane>
-                <TabPane  tab="医疗监测点" key="5">
+                <TabPane  tab="医疗监测点与事件地图" key="5">
                     <div className="AspNet-WebPart">
-                        <iframe src="https://www.google.com/maps/d/embed?mid=1HjTgBgEnMhkJ1c6De3aAxfG5F2s1ItiU"
-                                width="100%" height="560"></iframe>
-
+                        <Location/>
                     </div>
+                </TabPane>
+                <TabPane  tab="医疗专家Q&A" key="6">
+                    <ExpertQA/>
+
                 </TabPane>
 
 

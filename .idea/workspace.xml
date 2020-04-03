@@ -2,14 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38e876ac-b4fc-428d-8b67-1cb8a7674bd8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Data/ExpertQA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/inforProvide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExpertQA/ExpertQA.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExpertQA/ExpertQA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LanguageDict/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LanguageDict/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocationSituation/data/mapdataCon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocationSituation/data/mapdataHos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocationSituation/map/confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocationSituation/map/confirmed1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LocationSituation/map/hospital.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OtherMap/OtherMap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OtherMap/OtherMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OtherMap/data/mapdataCon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OtherMap/data/mapdataHos.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OtherMap/map/confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OtherMap/map/confirmed1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OtherMap/map/hospital.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContactInfor/ContactInfor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContactInfor/ContactInfor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataView/DataView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataView/DataView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EachState/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/EachState/State.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Functions/Functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Functions/Functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HealthInfo/HealthInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HealthInfo/HealthInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OfficialNews/OfficialNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/OfficialNews/OfficialNews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LocationSituation/Location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LocationSituation/Location.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Trending/Trending.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trending/Trending.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnconfirmInfor/Unconfirmed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnconfirmInfor/Unconfirmed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +49,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,7 +73,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/Data" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,12 +84,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\Administrator\WebstormProjects\auscorna\public" />
+      <recent name="D:\Users\Administrator\WebstormProjects\auscorna\public\Data" />
+      <recent name="D:\Users\Administrator\WebstormProjects\auscorna\src\OtherMap" />
       <recent name="D:\Users\Administrator\WebstormProjects\auscorna\src" />
+      <recent name="D:\Users\Administrator\WebstormProjects\auscorna\public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\Administrator\WebstormProjects\auscorna\public\Data" />
       <recent name="D:\Users\Administrator\WebstormProjects\auscorna\src" />
+      <recent name="D:\Users\Administrator\WebstormProjects\auscorna\src\LocationSituation" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -107,6 +134,19 @@
       <workItem from="1584057550546" duration="11449000" />
       <workItem from="1584352990678" duration="8170000" />
       <workItem from="1584401719089" duration="1298000" />
+      <workItem from="1584408190233" duration="5841000" />
+      <workItem from="1584490709658" duration="5929000" />
+      <workItem from="1584498971800" duration="9567000" />
+      <workItem from="1584528646145" duration="4854000" />
+      <workItem from="1584595292569" duration="4449000" />
+      <workItem from="1584605105668" duration="6706000" />
+      <workItem from="1584664072884" duration="3720000" />
+      <workItem from="1584675665403" duration="4363000" />
+      <workItem from="1584695440879" duration="3306000" />
+      <workItem from="1585708065992" duration="30000" />
+      <workItem from="1585792491484" duration="941000" />
+      <workItem from="1585810909085" duration="6525000" />
+      <workItem from="1585876508689" duration="6632000" />
     </task>
     <servers />
   </component>
@@ -129,44 +169,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584073347989" />
-    <state width="949" height="306" key="GridCell.Tab.0.bottom" timestamp="1584073349876">
+    <state width="1293" height="306" key="GridCell.Tab.0.bottom" timestamp="1585883499282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584073349876" />
-    <state width="949" height="306" key="GridCell.Tab.0.center" timestamp="1584073349876">
+    <state width="1293" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585883499282" />
+    <state width="1293" height="306" key="GridCell.Tab.0.center" timestamp="1585883499282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="306" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584073349876" />
-    <state width="949" height="306" key="GridCell.Tab.0.left" timestamp="1584073349876">
+    <state width="1293" height="306" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585883499282" />
+    <state width="1293" height="306" key="GridCell.Tab.0.left" timestamp="1585883499282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="306" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584073349876" />
-    <state width="949" height="306" key="GridCell.Tab.0.right" timestamp="1584073349876">
+    <state width="1293" height="306" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585883499282" />
+    <state width="1293" height="306" key="GridCell.Tab.0.right" timestamp="1585883499282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="306" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584073349876" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1584363620386">
+    <state width="1293" height="306" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585883499282" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1585816250373">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584363620386" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585816250373" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/DataView/DataView.js</url>
-          <line>102</line>
+          <line>122</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
-          <line>12</line>
+          <line>14</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/LocationSituation/Location.js</url>
-          <line>18</line>
+          <line>20</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/OtherMap/OtherMap.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

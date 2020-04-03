@@ -31,13 +31,12 @@ export default class DataVew extends React.Component {
             {content:"SA：1300 232 272"},
             {content:"TAS：1800 671 738"},
             {content:"NT：08 8922 8044"},
-            {content:"ACT：02 6205 2155"},
-            {content:"以下为NSW 新冠状病毒检查医院(大家前去检查是请做好防护，这些医院均有阳性确诊过）"},
-            {content:"Royal Prince Alfred Hospital 8.00 am until 10.00 pm daily"},
-            {content:"Concord Hospital 8.00am until 6.00pm daily"},
-            {content:"St Vincent’s Hospital 10.30am to 6.00pm daily"},
-            {content:"Prince of Wales Hospital 10.00am to 8.00pm Monday – Friday, 10.00am to 1.00pm Sat/Sun – Building 14B Avoca St, Randwick "}
-            ]
+            {content:"ACT：02 6205 2155"}
+            ],
+
+
+
+
     };
 
 
@@ -57,9 +56,10 @@ export default class DataVew extends React.Component {
 
 
         return <div className="site-card-wrapper">
-            <h2 className="time">医疗帮助资源{this.state.Time}</h2>
+            <h2 className="time">医疗帮助资源</h2>
             <Row>
                 <Col span={24}>
+
                     <Card bordered={true}>
                         {element}
 
@@ -67,6 +67,8 @@ export default class DataVew extends React.Component {
                 </Col>
 
             </Row>
+            <p></p>
+
             <Row>
                 <Col span={24}>
                     <Card bordered={true}  >
