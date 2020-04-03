@@ -1,21 +1,22 @@
 import React from 'react';
 import ReactHighcharts from 'react-highcharts';
 //New South Wales, Victoria, Queensland, Western Australia, South Australia and Tasmania
+import {FormattedMessage} from "react-intl";
 export default class Trending extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
 
-            config : {
+           config : {
                 title: {
-                    text: '各州确诊统计'
+                    text: ''
                 },
                 subtitle: {
-                    text: '03/11为止'
+                    text: ''
                 },
                 yAxis: {
                     title: {
-                        text: '确诊人数'
+                        text: 'Confirmed（确诊）'
                     }
                 },
                 credits: {
@@ -40,31 +41,31 @@ export default class Trending extends React.Component {
                     name: 'South Australia',
                     data: []
                 },
-                    {
-                        name: 'Australian Capital Territory',
-                        data: []
-                    },
+                {
+                    name: 'Australian Capital Territory',
+                    data: []
+                },
                     {
                         name: 'Tasmania',
                         data: []
                     }]
-            }
+           }
 
         }
         fetch("https://corona19-api.herokuapp.com/api/trending")
             .then(res => res.json())
             .then(json => {
-                var myDate = new Date();
+            	var myDate = new Date();
                 var config = {
                     title: {
-                        text: '各州确诊统计'
+                        text: ''
                     },
                     subtitle: {
-                        text: myDate.toLocaleString()+"为止"
+                        text: myDate.toLocaleString()
                     },
                     yAxis: {
                         title: {
-                            text: '确诊人数'
+                            text: 'Confirmed（确诊）'
                         }
                     },
                     credits: {
@@ -123,7 +124,7 @@ export default class Trending extends React.Component {
 
 
                     });
-
+                
 
 
             })

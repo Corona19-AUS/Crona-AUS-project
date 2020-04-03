@@ -1,10 +1,9 @@
 import React from 'react';
-
+import {Table} from 'antd';
 import {Statistic, Card, Col, Row} from 'antd';
 import {ArrowUpOutlined, ArrowDownOutlined} from '@ant-design/icons';
 import {FormattedMessage} from "react-intl";
-
-
+// import getJsonObject  from "../my_data_process";
 
 function get_trending (numberString){
     if(parseInt(numberString)>=0)
@@ -77,7 +76,7 @@ export default class DataVew extends React.Component {
 
 
     render() {
-        var c_s="+";
+    	var c_s="+";
         var r_s="+";
         var d_s="+";
         if(this.state.Confirmed_new<0)
@@ -102,13 +101,14 @@ export default class DataVew extends React.Component {
 
 
 
+
         return <div className="site-card-wrapper">
-            <h2 className="time">   <FormattedMessage id="update-time" values={{ name: 'React' }}/>{this.state.Time}</h2>
+            <h2 className="time"><FormattedMessage id="update-time" values={{ name: 'React' }}/>{this.state.Time}</h2>
             <Row  gutter={16}>
                 <Col span={8}>
-                    <Card bordered={true}>
+                    <Card key={1}  bordered={true}>
                         <Statistic
-                            title= {confirmTitle}
+                            title={confirmTitle}
                             value={this.state.Confirmed}
 
                             valueStyle={{color: "blue"}}
@@ -120,12 +120,10 @@ export default class DataVew extends React.Component {
                     </Card>
                 </Col>
                 <Col span={8}>
-                    <Card bordered={true}>
+                    <Card key={2} bordered={true}>
                         <Statistic
                             title={recoverTitle}
                             value={this.state.Recovered}
-
-
 
                             valueStyle={{color: "green"}}
 
@@ -135,7 +133,7 @@ export default class DataVew extends React.Component {
                     </Card>
                 </Col>
                 <Col span={8}>
-                    <Card bordered={true}>
+                    <Card key={3} bordered={true}>
                         <Statistic
                             title={deathTitle}
                             value={this.state.Deaths}

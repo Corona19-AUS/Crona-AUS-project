@@ -1,16 +1,22 @@
 const en={ 'title':"Summary of Australian Corona Virus Information",
     "update-time":"update:",
     'table-Area':"Area",
-    "table-Confirmed":"confirmed",
+    "table-Confirmed":"Confirmed",
+    "table-Title":"Infection of each state",
     "DataView-Confirm":"CONFIRMED：",
     "DataView-Recovery":"RECOVERED：",
     "DataView-Death":"DEATH：",
+    "Trending-Title":"Infection of each state",
+    "Trending-y":"The number of confirmed",
     'function-Trending': 'Trending',
     'function-OfficialNews':'News',
     'function-Unconfirm':'unknown news',
     'function-QandA':'Q&A',
     'function-Healthinfor':'Health Suggestion',
-    'Medical-Support-Info':"Medical Support Info",
-    'About-Us':'About us'
+    'Medical-Support-Info':"Medical Support Information",
+    'About-Us':'About us',
+    'gov-link':"Australian Government Department of Health",
+    "wiki-link":"wikipddia of Australian Corona Virus",
+    "news-link":"Data from news"
 };
 export default en

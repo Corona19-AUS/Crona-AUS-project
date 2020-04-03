@@ -7,6 +7,15 @@ const {Panel} = Collapse;
 
 
 export default class Unconfirmed extends React.Component {
+//  <Panel header="Coronavirus: COVID-19 cases continue to climb across Australia" key="2" className="site-collapse-custom-panel">
+//                     <p>Sixth case confirmed in Western Australia
+//                         Two new cases of coronavirus have been confirmed in Western Australia today, one of which is suspected to be the first human-to-human transmission of the virus in the state.
+//                         The woman, in her 60s, was diagnosed after her husband returned from Iran and is still being tested for the virus.
+//                         The couple is self-isolating at home, with regular monitoring being conducted by the Health Department. Her husband is being tested for the virus.
+//                         <a href="https://www.9news.com.au/national/coronavirus-victoria-three-new-cases-covid19-three-sydney-high-school-students-diagnosed-australia/a16ff590-51d9-4b04-b377-96fdb0db05bf">link</a>
+//                     </p>
+//
+//                 </Panel>
 
     constructor(props) {
         super(props);
@@ -26,7 +35,7 @@ export default class Unconfirmed extends React.Component {
                     };
 
                     for (var i = 0; i < json.length; i++) {
-                    	 if(json[i]['imagesrc']!=="")
+                    	 if(json[i]['imagesrc']!="")
                         {
                             imageStyle = {
                                 width:"40%",
@@ -40,9 +49,9 @@ export default class Unconfirmed extends React.Component {
                                 height:""
 
                             }
-
+                        	
                         }
-
+                    	
                         data.push(<Panel header={json[i]['title']} key={i} className="site-collapse-custom-panel">
                          <p>更新时间:{json[i]['created_at']}</p>
                          <p>正文:{json[i]['content']}</p>

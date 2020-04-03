@@ -5,6 +5,7 @@ import {Card, Col, Collapse, Statistic} from 'antd';
 const {Panel} = Collapse;
 
 
+
 export default class ExpertQA extends React.Component {
 
     //信息类，可考虑在constructor就调用数据或者render完再用componentDidMount渲染数据
@@ -13,24 +14,29 @@ export default class ExpertQA extends React.Component {
 
         this.state =
             {
-                Mdata: ""
+                Mdata:""
             }
 
         fetch("https://corona19-api.herokuapp.com/api/frequent_question_anwsers")
             .then(res => res.json())
             .then(json => {
 
+                    var data = [];
+                   
 
 
-                    var data = json.map((myjson) =>
-
-                        <div key={myjson['title']}><p style={{color: "blue"}}>Q:{myjson['title']}</p><p>A: {myjson['content']}</p></div>);
 
 
+                    for (var i = 0; i < json.length; i++) {
+
+
+                        data.push(<div key={i}><p style={{color:"blue"}}>Q:{json[i]['title']}</p><p>A: {json[i]['content']}</p></div>)
+                    }
                     this.setState({
 
                         Mdata: data
                     })
+
 
 
                 }
@@ -43,8 +49,8 @@ export default class ExpertQA extends React.Component {
 
         return <div className="Official">
 
-            <h2 style={{textAlign: "center"}}>国内专家Q&A</h2>
-            以下内容为国内一线医生总结，仅为基本参考，请咨询您的GP或专业医生获取专业意见
+            <h2 style={{textAlign:"center"}}>国内专家Q&A</h2>
+            <b>以下内容为国内一线医生总结，仅为基本参考，请咨询您的GP或专业医生获取专业意见</b>
 
             <Card bordered={true}>
 
@@ -56,7 +62,7 @@ export default class ExpertQA extends React.Component {
 
             </Card>
             <Card bordered={true}>
-                <h2 style={{textAlign: "center"}}>群友亲戚国内经历</h2>
+            <h2 style={{textAlign:"center"}}>群友亲戚国内经历</h2>
 
                 <p>{"一个群友描述的具体新冠病例，以下为群友原文，无删节，无修改，仅为个人经历，具体病症请听取专业医生经验"}</p>
                 <p>{"我武汉亲戚一家都是1月底感染的那一批，那是的武汉就是**，后期国家资源调配支援后，状况要好很多！"}</p>
@@ -71,6 +77,8 @@ export default class ExpertQA extends React.Component {
                 <p>{"老人，或者有其他疾病的，感染后一般扛不过一周，其他年龄段的病情分水岭就看能否退烧，并且三天内不反复，那就基本能痊愈了。只是我亲戚一家的大概分析，给大家稍作参考"}</p>
                 <p>{"我是湖北人，因为有亲人，有朋友和同学，都在武汉，再加上有亲人感染，知道他们的经历，获得信息可能要多一些，所以对这个病毒，还是提醒大家，尽量做好防护，每个人的身体面对这种病毒到底是什么反应，谁都不知道，不是年轻就肯定能扛住的，也不是免疫力强就肯定能过关的，我绝不危言耸听，只是提醒大家，所有的数字统计，概率，在病毒面前，1%和100%其实没有区别！"}</p>
             </Card>
+
+
 
 
         </div>;
